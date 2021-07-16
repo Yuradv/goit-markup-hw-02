@@ -8,6 +8,7 @@
   --logo-color-header: #000;
   --secondary-bcg-color: #2f303a;
   --button-bcg-color: #f5f4fa;
+  --team-bcg-color: #f5f4fa;
 }
 
 body {
@@ -34,9 +35,6 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo:hover {
-  color: red;
-}
 
 .color-span {
   color: var(--accent-color);
@@ -46,10 +44,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
-
-.color-span:hover {
-  color: red;
 }
 
 /* site-nav */
@@ -68,7 +62,7 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav .link .current {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -79,9 +73,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.contacts-nav .link:hover {
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -149,10 +145,6 @@ body {
   text-decoration: none;
 }
 
-.logo:hover {
-  color: red;
-}
-
 .adress-text {
   color: var(--primary-white-color);
   font-size: 14px;
@@ -168,6 +160,10 @@ body {
   font-size: 16px;
   line-height: 1.62;
   font-weight: 500;
+}
+
+.button:hover {
+  color: var(--accent-color);
 }
 
 .button.primary {
