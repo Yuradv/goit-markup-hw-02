@@ -165,7 +165,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.button.secondary:hover {
+.filter.button:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
