@@ -141,7 +141,8 @@ body {
 
 /* buttons */
 
-.button {
+.button,
+.filter-button {
   background-color: var(--button-bcg-color);
   color: var(--main-txt-color);
   font-size: 16px;
@@ -149,11 +150,13 @@ body {
   font-weight: 500;
 }
 
-.button:hover {
+.button:hover,
+.filter-button:hover {
   color: var(--accent-color);
 }
 
-.button {
+.button,
+.filter-button {
   cursor: pointer;
 }
 .button.primary {
@@ -165,7 +168,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.filter.button:hover {
+.filter-button:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
